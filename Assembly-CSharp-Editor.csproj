@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6F2BB784-6D2C-05F0-D2C9-35655C562F5F}</ProjectGuid>
+    <ProjectGuid>{BE76AA2C-FF9E-CF29-C091-C95FB9344BCB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;UNITY_64;UNITY_ANALYTICS;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;UNITY_64;UNITY_ANALYTICS;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;FD_GLASS</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -45,50 +45,156 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Fantastic Glass\Editor\Editor_CreateGlass.cs" />
+     <Compile Include="Assets\Fantastic Glass\Editor\Editor_Glass_UpdateUtility.cs" />
+     <Compile Include="Assets\Fantastic Glass\Editor\GlassPackageSetup.cs" />
      <Compile Include="Assets\Prefabs\RainMaker\Editor\RainMakerEditor.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\ComponentFactoryStarter\ComponentFactoryStarter.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\ExtensionImport.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\PostProcessBuildPlayer.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\Unzipper\SharpZipLibUnzipper.cs" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\readme_treeBarkShader.txt" />
+     <None Include="Assets\Fantastic Glass\XML\Outer Eye_GlassManagerSettings.xml" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+     <None Include="Assets\Fantastic Glass\XML\Amber Nugget.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Text.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Plastic Box.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Amber Rock.xml" />
+     <None Include="Assets\Fantastic Glass\XML\glass_system_settings.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Cloudy Green Plastic.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Honey Logo.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Emerald Logo_GlassManagerSettings.xml" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\readme_grassShader.txt" />
+     <None Include="Assets\Fantastic Glass\XML\Glass Box.xml" />
      <None Include="Assets\link.xml" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\Fantastic Glass\XML\Jewel Garnet.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Ice Cube 2.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Jewel Ruby_GlassManagerSettings.xml" />
      <None Include="Assets\Prefabs\Panda\Panda_readme.txt" />
+     <None Include="Assets\Fantastic Glass\XML\Clear Glass_GlassManagerSettings.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Amber Cube 1_GlassManagerSettings.xml" />
      <None Include="Assets\readme_SDK.txt" />
+     <None Include="Assets\Fantastic Glass\XML\Clear Glass.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Ice Cube 2_GlassManagerSettings.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Stained Glass Logo 2_GlassManagerSettings.xml" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\atsV2 billboardShader package\TreeCreatorLeavesRendertex.shader" />
      <None Include="Assets\Prefabs\TreeAssets\10 low-poly Medieval models\chalkboard\archibase.net.txt" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\atsV2 billboardShader package\TreeCreatorBarkRendertex.shader" />
+     <None Include="Assets\Fantastic Glass\XML\Jewel Quartz_GlassManagerSettings.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Pint Glass_GlassManagerSettings.xml" />
+     <None Include="Assets\Fantastic Glass\XML\glass_preset_list.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Frosted Logo_GlassManagerSettings.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Jam Jar.xml" />
      <None Include="Assets\StreamingAssets\QCAR\boom.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Soap Gem.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Whisky Glass.xml" />
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
+     <None Include="Assets\Fantastic Glass\XML\Amethyst.xml" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\ats pathShader Package\Shader\ats Road Path bumped diffuse alphatest.shader" />
+     <None Include="Assets\Fantastic Glass\XML\Jewel Amethyst.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Cloudy Purple Plastic 2.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Magic Box.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Emerald Logo.xml" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\ats vertexLitShader Package\Shader\atsv2 vertexlit.shader" />
+     <None Include="Assets\Fantastic Glass\XML\Water.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Jewel Topaz.xml" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\atsV2 grassShader Package\atsV2WavingGrass.shader" />
+     <None Include="Assets\Fantastic Glass\XML\Smooth Amber Nugget.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Glass Chess Piece_GlassManagerSettings.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Glass Chess Piece.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Amber Cube.xml" />
+     <None Include="Assets\Fantasy Village\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\Fantasy Village\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Fantastic Glass\XML\Ice Cube 1_GlassManagerSettings.xml" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\readme_billboardShader.txt" />
+     <None Include="Assets\Fantastic Glass\XML\Thick Clear Glass_GlassManagerSettings.xml" />
      <None Include="Assets\Editor\Vuforia\VuMark_Database\authoringinfo.xml" />
      <None Include="Assets\Prefabs\TreeAssets\StreamingAssets\QCAR\boom.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Glass Box_GlassManagerSettings.xml" />
      <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+     <None Include="Assets\Fantastic Glass\XML\Hard Acrylic.xml" />
      <None Include="Assets\license_3rdpartynotice.txt" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\atsV2 billboardShader package\Tree.cginc" />
      <None Include="Assets\Prefabs\TreeAssets\10 low-poly Medieval models\3d swing\archibase.net.txt" />
      <None Include="Assets\Prefabs\RainMaker\Prefab\RainShader.shader" />
+     <None Include="Assets\Fantastic Glass\XML\Plane Bump.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Stained Glass Logo_GlassManagerSettings.xml" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\readme_terrainBumpShader.txt" />
+     <None Include="Assets\Fantastic Glass\XML\Amber Rock_GlassManagerSettings.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Smooth Amber Nugget_GlassManagerSettings.xml" />
      <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Amber Cube 2.xml" />
      <None Include="Assets\StreamingAssets\Vuforia\VuMark_Database.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\atsV2 UnityTerrainBump Package\TerrainReplacementAtsV2.shader" />
+     <None Include="Assets\Fantasy Village\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\Fantastic Glass\XML\Bulb_GlassManagerSettings.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Whisky Glass_GlassManagerSettings.xml" />
+     <None Include="Assets\Elementals\Readme.txt" />
+     <None Include="Assets\Fantastic Glass\XML\Text_GlassManagerSettings.xml" />
+     <None Include="Assets\Fantastic Glass\Shaders\Resources\Depth_FrontFace.shader" />
+     <None Include="Assets\Fantastic Glass\XML\Rough Box.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Emerald Gem_GlassManagerSettings.xml" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Pint Glass.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Jewel Amethyst_GlassManagerSettings.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Jewel Garnet_GlassManagerSettings.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Outer Eye.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Cloudy Purple Plastic 3.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Bulb.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Box and Domes.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Emerald Jewel.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Box and Domes_GlassManagerSettings.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Rough Box_GlassManagerSettings.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Hard Acrylic_GlassManagerSettings.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Ruby Gem.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Cloudy Purple Plastic_GlassManagerSettings.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Amber Cube 1.xml" />
+     <None Include="Assets\Fantasy Village\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\Fantastic Glass\XML\Milky Ice Cube.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Blood.xml" />
+     <None Include="Assets\Fantastic Glass\XML\glass_editor_settings.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Water_GlassManagerSettings.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Default.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Jewel Quartz.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Emerald Gem.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Thick Clear Glass.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Stained Glass Logo.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Frosted Logo.xml" />
+     <None Include="Assets\Fantastic Glass\Shaders\Resources\DepthWorldNormals_BackFace.shader" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
+     <None Include="Assets\Fantastic Glass\Shaders\Resources\Depth_BackFace.shader" />
+     <None Include="Assets\Fantastic Glass\XML\Emerald Jewel_GlassManagerSettings.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Milk.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Plastic Box_GlassManagerSettings.xml" />
+     <None Include="Assets\Fantastic Glass\Shaders\Resources\Glass.shader" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
      <None Include="Assets\Prefabs\RainMaker\Readme.txt" />
+     <None Include="Assets\Fantastic Glass\XML\Ice Cube 1.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Default_GlassManagerSettings.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Amethyst Flanders.xml" />
+     <None Include="Assets\Fantasy Village\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Fantastic Glass\XML\Soap Gem_GlassManagerSettings.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Cloudy Purple Plastic.xml" />
+     <None Include="Assets\Fantasy Village\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\Fantastic Glass\Shaders\Resources\DepthWorldNormals_FrontFace.shader" />
+     <None Include="Assets\Fantastic Glass\XML\Cloudy Purple Plastic 4.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Jewel Topaz_GlassManagerSettings.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Jam Jar_GlassManagerSettings.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Honey Logo_GlassManagerSettings.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Jewel Ruby.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Milk_GlassManagerSettings.xml" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
+     <None Include="Assets\Fantastic Glass\XML\Stained Glass Logo 2.xml" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\readme_vertexLitShader.txt" />
+     <None Include="Assets\Fantastic Glass\XML\Ruby Gem_GlassManagerSettings.xml" />
+     <None Include="Assets\Fantastic Glass\XML\Plane Bump_GlassManagerSettings.xml" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>/Users/wvanleunen/Documents/T/TreasureHunt3/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>/Users/wvanleunen/Documents/T/TreasureHunt4/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="Assembly-UnityScript-Editor-firstpass">
- <HintPath>/Users/wvanleunen/Documents/T/TreasureHunt3/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll</HintPath>
+ <HintPath>/Users/wvanleunen/Documents/T/TreasureHunt4/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -118,10 +224,10 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions.Editor">
- <HintPath>/Users/wvanleunen/Documents/T/TreasureHunt3/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll</HintPath>
+ <HintPath>/Users/wvanleunen/Documents/T/TreasureHunt4/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions">
- <HintPath>/Users/wvanleunen/Documents/T/TreasureHunt3/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>/Users/wvanleunen/Documents/T/TreasureHunt4/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -132,13 +238,19 @@
  <Reference Include="UnityEditor.iOS.Extensions">
  <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditor.AppleTV.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{C9EC61FD-2DD7-D651-610B-1848E4080ECC}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{6AFC77A3-6847-C83A-5706-321FAA788221}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

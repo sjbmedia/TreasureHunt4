@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{9F37C1E4-1E48-901D-309A-E594FE608B05}") = "TreasureHunt4", "Assembly-CSharp.csproj", "{6AFC77A3-6847-C83A-5706-321FAA788221}"
+EndProject
+Project("{9F37C1E4-1E48-901D-309A-E594FE608B05}") = "TreasureHunt4", "Assembly-CSharp-Editor.csproj", "{BE76AA2C-FF9E-CF29-C091-C95FB9344BCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AFC77A3-6847-C83A-5706-321FAA788221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AFC77A3-6847-C83A-5706-321FAA788221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AFC77A3-6847-C83A-5706-321FAA788221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AFC77A3-6847-C83A-5706-321FAA788221}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE76AA2C-FF9E-CF29-C091-C95FB9344BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE76AA2C-FF9E-CF29-C091-C95FB9344BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE76AA2C-FF9E-CF29-C091-C95FB9344BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE76AA2C-FF9E-CF29-C091-C95FB9344BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

@@ -108,10 +108,10 @@
 
 		public void OpenVideoActivity()
 		{
-			var androidJC = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
-			var jo = androidJC.GetStatic<AndroidJavaObject>("currentActivity");
+		//	var androidJC = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
+		//	var jo = androidJC.GetStatic<AndroidJavaObject>("currentActivity");
 			// Accessing the class to call a static method on it
-			var jc = new AndroidJavaClass("com.mobiliya.gepoc.StartVideoActivity");
+		//	var jc = new AndroidJavaClass("com.mobiliya.gepoc.StartVideoActivity");
 			// Calling a Call method to which the current activity is passed
 		//	jc.CallStatic("Call", jo);
 

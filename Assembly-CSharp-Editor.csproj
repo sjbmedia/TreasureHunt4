@@ -86,7 +86,6 @@
      <None Include="Assets\Fantastic Glass\XML\glass_preset_list.xml" />
      <None Include="Assets\Fantastic Glass\XML\Frosted Logo_GlassManagerSettings.xml" />
      <None Include="Assets\Fantastic Glass\XML\Jam Jar.xml" />
-     <None Include="Assets\StreamingAssets\QCAR\boom.xml" />
      <None Include="Assets\Fantastic Glass\XML\Soap Gem.xml" />
      <None Include="Assets\Fantastic Glass\XML\Whisky Glass.xml" />
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
@@ -161,6 +160,7 @@
      <None Include="Assets\Fantastic Glass\XML\Emerald Gem.xml" />
      <None Include="Assets\Fantastic Glass\XML\Thick Clear Glass.xml" />
      <None Include="Assets\Fantastic Glass\XML\Stained Glass Logo.xml" />
+     <None Include="Assets\StreamingAssets\QCAR\boom.xml" />
      <None Include="Assets\Fantastic Glass\XML\Frosted Logo.xml" />
      <None Include="Assets\Fantastic Glass\Shaders\Resources\DepthWorldNormals_BackFace.shader" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
@@ -184,12 +184,14 @@
      <None Include="Assets\Fantastic Glass\XML\Jam Jar_GlassManagerSettings.xml" />
      <None Include="Assets\Fantastic Glass\XML\Honey Logo_GlassManagerSettings.xml" />
      <None Include="Assets\Fantastic Glass\XML\Jewel Ruby.xml" />
+     <None Include="Assets\Editor\QCAR\TargetsetData\boom_info.xml" />
      <None Include="Assets\Fantastic Glass\XML\Milk_GlassManagerSettings.xml" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
      <None Include="Assets\Fantastic Glass\XML\Stained Glass Logo 2.xml" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\readme_vertexLitShader.txt" />
      <None Include="Assets\Fantastic Glass\XML\Ruby Gem_GlassManagerSettings.xml" />
      <None Include="Assets\Fantastic Glass\XML\Plane Bump_GlassManagerSettings.xml" />
+     <None Include="Assets\StreamingAssets\QCAR\boom_OT.xml" />
  <Reference Include="Assembly-UnityScript">
  <HintPath>/Users/wvanleunen/Documents/T/TreasureHunt4/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>

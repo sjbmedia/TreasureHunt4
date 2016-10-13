@@ -1,9 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Vuforia/Scripts/MarkerBehaviour.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/testGUIAppear.cs">
     <Files>
+      <File FileName="Assets/Fantasy Village/Standard Assets/Environment/Water/Water/Scripts/Water.cs" Line="212" Column="61" />
       <File FileName="Assets/Vuforia/Scripts/VuMarkBehaviour.cs" Line="1" Column="1" />
       <File FileName="Assets/Vuforia/Scripts/MarkerBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets/testGUIAppear.cs" Line="120" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

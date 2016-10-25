@@ -52,6 +52,7 @@
      <Compile Include="Assets\Vuforia\Editor\Scripts\Unzipper\SharpZipLibUnzipper.cs" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\readme_treeBarkShader.txt" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+     <None Include="Assets\Huge Mocap Library\READTHIS.txt" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\readme_grassShader.txt" />
      <None Include="Assets\link.xml" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
@@ -64,6 +65,7 @@
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\ats pathShader Package\Shader\ats Road Path bumped diffuse alphatest.shader" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\ats vertexLitShader Package\Shader\atsv2 vertexlit.shader" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\atsV2 grassShader Package\atsV2WavingGrass.shader" />
+     <None Include="Assets\Huge Mocap Library\mocap animations\cmu-mocap-index-text.txt" />
      <None Include="Assets\Fantasy Village\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Fantasy Village\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\readme_billboardShader.txt" />
@@ -83,6 +85,7 @@
      <None Include="Assets\Elementals\Readme.txt" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Fantasy Village\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\Raw Mocap Data\Animations\_CompleteAnimationList.txt" />
      <None Include="Assets\StreamingAssets\QCAR\boom.xml" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />

@@ -45,31 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Cardboard\Editor\CardboardAudioListenerEditor.cs" />
-     <Compile Include="Assets\Cardboard\Editor\CardboardAudioRoomEditor.cs" />
-     <Compile Include="Assets\Cardboard\Editor\CardboardAudioSourceEditor.cs" />
-     <Compile Include="Assets\Cardboard\Editor\CardboardEditor.cs" />
-     <Compile Include="Assets\Cardboard\Editor\CardboardGazeEditor.cs" />
-     <Compile Include="Assets\Cardboard\Editor\CardboardMenu.cs" />
-     <Compile Include="Assets\Cardboard\Editor\CardboardSetup.cs" />
-     <Compile Include="Assets\Cardboard\Editor\StereoControllerEditor.cs" />
-     <Compile Include="Assets\InstantVR\Editor\HeadMovements_Editor.cs" />
-     <Compile Include="Assets\InstantVR\Editor\IVR_Animator_Editor.cs" />
-     <Compile Include="Assets\InstantVR\Editor\IVR_Cardboard_Editor.cs" />
-     <Compile Include="Assets\InstantVR\Editor\IVR_Controller_Editor.cs" />
-     <Compile Include="Assets\InstantVR\Editor\IVR_Editor.cs" />
-     <Compile Include="Assets\InstantVR\Editor\IVR_Extension_Editor.cs" />
-     <Compile Include="Assets\InstantVR\Editor\IVR_Traditional_Editor.cs" />
-     <Compile Include="Assets\InstantVR\Editor\IVR_UnityVR_Editor.cs" />
      <Compile Include="Assets\OVR\Editor\OVRBuild.cs" />
      <Compile Include="Assets\OVR\Editor\OVRScreenshotWizard.cs" />
      <Compile Include="Assets\OVR\Moonlight\Editor\OVRMoonlightLoader.cs" />
      <Compile Include="Assets\Prefabs\RainMaker\Editor\RainMakerEditor.cs" />
-     <Compile Include="Assets\SteamVR\Editor\SteamVR_Editor.cs" />
-     <Compile Include="Assets\SteamVR\Editor\SteamVR_RenderModelEditor.cs" />
-     <Compile Include="Assets\SteamVR\Editor\SteamVR_Settings.cs" />
-     <Compile Include="Assets\SteamVR\Editor\SteamVR_SkyboxEditor.cs" />
-     <Compile Include="Assets\SteamVR\Editor\SteamVR_Update.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\ComponentFactoryStarter\ComponentFactoryStarter.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\ExtensionImport.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\PostProcessBuildPlayer.cs" />
@@ -77,28 +56,20 @@
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\readme_treeBarkShader.txt" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
-     <None Include="Assets\CapturePanorama\Compute Shaders\ConvertPanoramaShader.compute" />
-     <None Include="Assets\Cardboard\Distortion\CardboardDistortion.cginc" />
-     <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
      <None Include="Assets\Huge Mocap Library\READTHIS.txt" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\readme_grassShader.txt" />
      <None Include="Assets\link.xml" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
-     <None Include="Assets\SteamVR\Resources\SteamVR_BlitFlip.shader" />
      <None Include="Assets\Prefabs\Panda\Panda_readme.txt" />
-     <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
      <None Include="Assets\readme_SDK.txt" />
-     <None Include="Assets\CapturePanorama\README.txt" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\atsV2 billboardShader package\TreeCreatorLeavesRendertex.shader" />
      <None Include="Assets\Prefabs\TreeAssets\10 low-poly Medieval models\chalkboard\archibase.net.txt" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\atsV2 billboardShader package\TreeCreatorBarkRendertex.shader" />
-     <None Include="Assets\Cardboard\Resources\UnlitTexture.shader" />
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\ats pathShader Package\Shader\ats Road Path bumped diffuse alphatest.shader" />
      <None Include="Assets\OVR\Moonlight\Shaders\OVRColorRampAlpha.shader" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\ats vertexLitShader Package\Shader\atsv2 vertexlit.shader" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\atsV2 grassShader Package\atsV2WavingGrass.shader" />
-     <None Include="Assets\SteamVR\Resources\SteamVR_HiddenArea.shader" />
      <None Include="Assets\Fantasy Village\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Fantasy Village\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\readme_billboardShader.txt" />
@@ -107,13 +78,10 @@
      <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
      <None Include="Assets\license_3rdpartynotice.txt" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\atsV2 billboardShader package\Tree.cginc" />
-     <None Include="Assets\SteamVR\Resources\SteamVR_Overlay.shader" />
      <None Include="Assets\OVR\Moonlight\Shaders\Unlit Crosshair.shader" />
-     <None Include="Assets\CapturePanorama\Compute Shaders\TextureToBufferShader.compute" />
      <None Include="Assets\Prefabs\TreeAssets\10 low-poly Medieval models\3d swing\archibase.net.txt" />
      <None Include="Assets\Prefabs\RainMaker\Prefab\RainShader.shader" />
      <None Include="Assets\OVR\Moonlight\Resources\Unlit Transparent Color.shader" />
-     <None Include="Assets\CapturePanorama\Shaders\Unlit Transparent HUD.shader" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\readme_terrainBumpShader.txt" />
      <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
      <None Include="Assets\StreamingAssets\Vuforia\VuMark_Database.xml" />
@@ -123,23 +91,15 @@
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Elementals\Readme.txt" />
      <None Include="Assets\Fantasy Village\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
-     <None Include="Assets\SteamVR\Resources\SteamVR_Blit.shader" />
      <None Include="Assets\StreamingAssets\QCAR\boom.xml" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
-     <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
-     <None Include="Assets\Cardboard\Resources\UI\CardboardReticleShader.shader" />
-     <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
      <None Include="Assets\Prefabs\RainMaker\Readme.txt" />
-     <None Include="Assets\SteamVR\readme.txt" />
      <None Include="Assets\Fantasy Village\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Fantasy Village\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
-     <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
-     <None Include="Assets\Cardboard\Resources\SolidColor.shader" />
      <None Include="Assets\Editor\QCAR\TargetsetData\boom_info.xml" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\readme_vertexLitShader.txt" />
-     <None Include="Assets\CapturePanorama\Compute Shaders\ConvertPanoramaStereoShader.compute" />
      <None Include="Assets\StreamingAssets\QCAR\boom_OT.xml" />
  <Reference Include="Assembly-UnityScript">
  <HintPath>/Users/wvanleunen/Documents/T/TreasureHunt4/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
@@ -173,9 +133,6 @@
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
- </Reference>
- <Reference Include="System.Drawing">
- <HintPath>/Users/wvanleunen/Documents/T/TreasureHunt4/Assets/CapturePanorama/Managed Plugins/System.Drawing.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions.Editor">
  <HintPath>/Users/wvanleunen/Documents/T/TreasureHunt4/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll</HintPath>

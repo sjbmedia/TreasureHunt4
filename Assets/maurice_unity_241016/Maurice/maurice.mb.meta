@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e5602b47c0cb7c94ebd110301c08213b
-timeCreated: 1477321280
+timeCreated: 1478070048
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -367,7 +367,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleRotations: 1
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -490,8 +490,8 @@ ModelImporter:
     - boneName: head_JNT
       humanName: Head
       limit:
-        min: {x: 0, y: -10, z: -20}
-        max: {x: 0, y: 10, z: 20}
+        min: {x: 0, y: -21.011763, z: -55.90588}
+        max: {x: 0, y: 17.62353, z: 25.41177}
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 1
@@ -1490,13 +1490,13 @@ ModelImporter:
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    armTwist: 0.5
-    foreArmTwist: 0.5
+    armTwist: 0.487
+    foreArmTwist: 0.497
     upperLegTwist: 0.5
     legTwist: 0.5
-    armStretch: 0.05
+    armStretch: 0.042
     legStretch: 0.05
-    feetSpacing: 0.015
+    feetSpacing: 0.043
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}

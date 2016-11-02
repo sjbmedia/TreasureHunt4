@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/InstantVR/Demo/GroceryStore/Grocery Store Free.unity
+- path: Assets/Scenes/AR.unity
   isLoaded: 1
   isActive: 1

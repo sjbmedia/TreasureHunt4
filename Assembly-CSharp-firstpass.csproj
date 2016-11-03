@@ -83,17 +83,18 @@
      <None Include="Assets\Fantasy Village\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Elementals\Readme.txt" />
+     <None Include="Assets\Editor\QCAR\TargetsetData\boom_info.xml" />
      <None Include="Assets\Fantasy Village\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\StreamingAssets\QCAR\boom.xml" />
+     <None Include="Assets\StreamingAssets\QCAR\boom_OT.xml" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
      <None Include="Assets\Prefabs\RainMaker\Readme.txt" />
      <None Include="Assets\Fantasy Village\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Fantasy Village\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
-     <None Include="Assets\Editor\QCAR\TargetsetData\boom_info.xml" />
+     <None Include="Assets\Prefabs\TreeAssets\10 low-poly Medieval models\3dsuitcase\Materials\test schaduw op transparant object.shader" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
      <None Include="Assets\Prefabs\TreeAssets\0000 ats V2 package\readme_vertexLitShader.txt" />
-     <None Include="Assets\StreamingAssets\QCAR\boom_OT.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

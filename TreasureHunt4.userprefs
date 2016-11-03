@@ -2,10 +2,13 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/testGUIAppear.cs">
     <Files>
-      <File FileName="Assets/Fantasy Village/Standard Assets/Environment/Water/Water/Scripts/Water.cs" Line="1" Column="1" />
       <File FileName="Assets/Vuforia/Scripts/VuMarkBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets/Fantasy Village/Standard Assets/Environment/Water/Water/Scripts/Water.cs" Line="1" Column="1" />
       <File FileName="Assets/Vuforia/Scripts/MarkerBehaviour.cs" Line="1" Column="1" />
-      <File FileName="Assets/testGUIAppear.cs" Line="1" Column="1" />
+      <File FileName="Assets/testGUIAppear.cs" Line="95" Column="5" />
+      <File FileName="Assets/Characters/Player1.cs" Line="1" Column="1" />
+      <File FileName="Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs" Line="39" Column="3" />
+      <File FileName="Assets/Vuforia/Scripts/pandaTrackerBehaviour.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

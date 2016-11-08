@@ -185,6 +185,8 @@ ModelImporter:
     400176: Tail01 jnt
     400178: Tail02 jnt
     400180: Tail03 jnt
+    2300000: Panda
+    3300000: Panda
     4300000: Panda
     7400000: panda_walk
     7400002: panda_run
@@ -245,7 +247,254 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GeneralController001
+        weight: 1
+      - path: GeneralController001/Ctrl_Left Back Leg
+        weight: 1
+      - path: GeneralController001/Ctrl_Left Back Leg/Ctrl_Left Femur
+        weight: 1
+      - path: GeneralController001/Ctrl_Left Back Leg/Ctrl_Left Femur/IK Chain011
+        weight: 1
+      - path: GeneralController001/Ctrl_Left Back Leg/Ctrl_Left Foot
+        weight: 1
+      - path: GeneralController001/Ctrl_Left Back Leg/Ctrl_Left Foot/IK Chain012
+        weight: 1
+      - path: GeneralController001/Ctrl_Left Front Leg
+        weight: 1
+      - path: GeneralController001/Ctrl_Left Front Leg/Ctrl_Left Claw
+        weight: 1
+      - path: GeneralController001/Ctrl_Left Front Leg/Ctrl_Left Claw/IK Chain009
+        weight: 1
+      - path: GeneralController001/Ctrl_Left Front Leg/Ctrl_Left Humerus
+        weight: 1
+      - path: GeneralController001/Ctrl_Left Front Leg/Ctrl_Left Humerus/IK Chain008
+        weight: 1
+      - path: GeneralController001/Ctrl_Left Pelvis
+        weight: 1
+      - path: GeneralController001/Ctrl_Left Pelvis/IK Chain010
+        weight: 1
+      - path: GeneralController001/Ctrl_Left Scapula
+        weight: 1
+      - path: GeneralController001/Ctrl_Left Scapula/IK Chain007
+        weight: 1
+      - path: GeneralController001/Ctrl_Right Back Leg
+        weight: 1
+      - path: GeneralController001/Ctrl_Right Back Leg/Ctrl_Right Femur
+        weight: 1
+      - path: GeneralController001/Ctrl_Right Back Leg/Ctrl_Right Femur/IK Chain005
+        weight: 1
+      - path: GeneralController001/Ctrl_Right Back Leg/Ctrl_Right Foot
+        weight: 1
+      - path: GeneralController001/Ctrl_Right Back Leg/Ctrl_Right Foot/IK Chain006
+        weight: 1
+      - path: GeneralController001/Ctrl_Right Front Leg
+        weight: 1
+      - path: GeneralController001/Ctrl_Right Front Leg/Ctrl_Right Claw
+        weight: 1
+      - path: GeneralController001/Ctrl_Right Front Leg/Ctrl_Right Claw/IK Chain003
+        weight: 1
+      - path: GeneralController001/Ctrl_Right Front Leg/Ctrl_Right Humerus
+        weight: 1
+      - path: GeneralController001/Ctrl_Right Front Leg/Ctrl_Right Humerus/IK Chain002
+        weight: 1
+      - path: GeneralController001/Ctrl_Right Pelvis
+        weight: 1
+      - path: GeneralController001/Ctrl_Right Pelvis/IK Chain004
+        weight: 1
+      - path: GeneralController001/Ctrl_Right Scapula
+        weight: 1
+      - path: GeneralController001/Ctrl_Right Scapula/IK Chain001
+        weight: 1
+      - path: GeneralController001/Root point Helper
+        weight: 1
+      - path: GeneralController001/Root point Helper/Ctrl_Spine01
+        weight: 1
+      - path: GeneralController001/Root point Helper/Ctrl_Spine01/Ctrl_Spine02
+        weight: 1
+      - path: GeneralController001/Root point Helper/Ctrl_Spine01/Ctrl_Spine02/Ctrl_Spine03
+        weight: 1
+      - path: GeneralController001/Root point Helper/Ctrl_Spine01/Ctrl_Spine02/Ctrl_Spine03/Ctrl_Spine04
+        weight: 1
+      - path: GeneralController001/Root point Helper/Ctrl_Spine01/Ctrl_Spine02/Ctrl_Spine03/Ctrl_Spine04/Ctrl_Spine05
+        weight: 1
+      - path: GeneralController001/Root point Helper/Ctrl_Spine01/Ctrl_Spine02/Ctrl_Spine03/Ctrl_Spine04/Ctrl_Spine05/Ctrl_Spine06
+        weight: 1
+      - path: GeneralController001/Root point Helper/Ctrl_Spine01/Ctrl_Spine02/Ctrl_Spine03/Ctrl_Spine04/Ctrl_Spine05/Ctrl_Spine06/Ctrl_Spine07
+        weight: 1
+      - path: GeneralController001/Root point Helper/Ctrl_Spine01/Ctrl_Spine02/Ctrl_Spine03/Ctrl_Spine04/Ctrl_Spine05/Ctrl_Spine06/Ctrl_Spine07/Ctrl_Spine08
+        weight: 1
+      - path: GeneralController001/Root point Helper/Ctrl_Spine01/Ctrl_Spine02/Ctrl_Spine03/Ctrl_Spine04/Ctrl_Spine05/Ctrl_Spine06/Ctrl_Spine07/Ctrl_Spine08/Ctrl_Spine09
+        weight: 1
+      - path: GeneralController001/Root point Helper/Ctrl_Spine01/Ctrl_Spine02/Ctrl_Spine03/Ctrl_Spine04/Ctrl_Spine05/Ctrl_Spine06/Ctrl_Spine07/Ctrl_Spine08/Ctrl_Spine09/Ctrl_Head01
+        weight: 1
+      - path: GeneralController001/Root point Helper/Ctrl_Spine01/Ctrl_Spine02/Ctrl_Spine03/Ctrl_Spine04/Ctrl_Spine05/Ctrl_Spine06/Ctrl_Spine07/Ctrl_Spine08/Ctrl_Spine09/Ctrl_Head01/Ctrl_Head02
+        weight: 1
+      - path: GeneralController001/Root point Helper/Ctrl_Spine01/Ctrl_Spine02/Ctrl_Spine03/Ctrl_Spine04/Ctrl_Spine05/Ctrl_Spine06/Ctrl_Spine07/Ctrl_Spine08/Ctrl_Spine09/Ctrl_Head01/Ctrl_Jaw01
+        weight: 1
+      - path: GeneralController001/Root point Helper/Ctrl_Spine01/Ctrl_Spine02/Ctrl_Spine03/Ctrl_Spine04/Ctrl_Spine05/Ctrl_Spine06/Ctrl_Spine07/Ctrl_Spine08/Ctrl_Spine09/Ctrl_Head01/Ctrl_Jaw01/Ctrl_Jaw02
+        weight: 1
+      - path: GeneralController001/Root point Helper/Ctrl_Tail01
+        weight: 1
+      - path: GeneralController001/Root point Helper/Ctrl_Tail01/Ctrl_Tail02
+        weight: 1
+      - path: GeneralController001/Root point Helper/Ctrl_Tail01/Ctrl_Tail02/Ctrl_Tail03
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Left Back Leg01 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Left Back Leg01 jnt/Left
+          Back Leg02 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Left Back Leg01 jnt/Left
+          Back Leg02 jnt/Left Back Leg03 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Left Back Leg01 jnt/Left
+          Back Leg02 jnt/Left Back Leg03 jnt/Left Back Leg04 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Left Back Leg01 jnt/Left
+          Back Leg02 jnt/Left Back Leg03 jnt/Left Back Leg04 jnt/Left Back Leg05 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Left Back Leg01 jnt/Left
+          Back Leg02 jnt/Left Back Leg03 jnt/Left Back Leg04 jnt/Left Back Leg05 jnt/Left
+          Back Leg Tip jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Right Back Leg01
+          jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Right Back Leg01
+          jnt/Right Back Leg02 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Right Back Leg01
+          jnt/Right Back Leg02 jnt/Right Back Leg03 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Right Back Leg01
+          jnt/Right Back Leg02 jnt/Right Back Leg03 jnt/Right Back Leg04 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Right Back Leg01
+          jnt/Right Back Leg02 jnt/Right Back Leg03 jnt/Right Back Leg04 jnt/Right
+          Back Leg05 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Right Back Leg01
+          jnt/Right Back Leg02 jnt/Right Back Leg03 jnt/Right Back Leg04 jnt/Right
+          Back Leg05 jnt/Right Back Leg Tip jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt/Spine03
+          jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt/Spine03
+          jnt/Spine04 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt/Spine03
+          jnt/Spine04 jnt/Spine05 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt/Spine03
+          jnt/Spine04 jnt/Spine05 jnt/Spine06 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt/Spine03
+          jnt/Spine04 jnt/Spine05 jnt/Spine06 jnt/Spine07 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt/Spine03
+          jnt/Spine04 jnt/Spine05 jnt/Spine06 jnt/Spine07 jnt/Spine08 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt/Spine03
+          jnt/Spine04 jnt/Spine05 jnt/Spine06 jnt/Spine07 jnt/Spine08 jnt/Left Front
+          Leg01 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt/Spine03
+          jnt/Spine04 jnt/Spine05 jnt/Spine06 jnt/Spine07 jnt/Spine08 jnt/Left Front
+          Leg01 jnt/Left Front Leg02 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt/Spine03
+          jnt/Spine04 jnt/Spine05 jnt/Spine06 jnt/Spine07 jnt/Spine08 jnt/Left Front
+          Leg01 jnt/Left Front Leg02 jnt/Left Front Leg03 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt/Spine03
+          jnt/Spine04 jnt/Spine05 jnt/Spine06 jnt/Spine07 jnt/Spine08 jnt/Left Front
+          Leg01 jnt/Left Front Leg02 jnt/Left Front Leg03 jnt/Left Front Leg04 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt/Spine03
+          jnt/Spine04 jnt/Spine05 jnt/Spine06 jnt/Spine07 jnt/Spine08 jnt/Left Front
+          Leg01 jnt/Left Front Leg02 jnt/Left Front Leg03 jnt/Left Front Leg04 jnt/Left
+          Front Leg05 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt/Spine03
+          jnt/Spine04 jnt/Spine05 jnt/Spine06 jnt/Spine07 jnt/Spine08 jnt/Left Front
+          Leg01 jnt/Left Front Leg02 jnt/Left Front Leg03 jnt/Left Front Leg04 jnt/Left
+          Front Leg05 jnt/Left Front Leg Tip jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt/Spine03
+          jnt/Spine04 jnt/Spine05 jnt/Spine06 jnt/Spine07 jnt/Spine08 jnt/Right Front
+          Leg01 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt/Spine03
+          jnt/Spine04 jnt/Spine05 jnt/Spine06 jnt/Spine07 jnt/Spine08 jnt/Right Front
+          Leg01 jnt/Right Front Leg02 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt/Spine03
+          jnt/Spine04 jnt/Spine05 jnt/Spine06 jnt/Spine07 jnt/Spine08 jnt/Right Front
+          Leg01 jnt/Right Front Leg02 jnt/Right Front Leg03 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt/Spine03
+          jnt/Spine04 jnt/Spine05 jnt/Spine06 jnt/Spine07 jnt/Spine08 jnt/Right Front
+          Leg01 jnt/Right Front Leg02 jnt/Right Front Leg03 jnt/Right Front Leg04
+          jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt/Spine03
+          jnt/Spine04 jnt/Spine05 jnt/Spine06 jnt/Spine07 jnt/Spine08 jnt/Right Front
+          Leg01 jnt/Right Front Leg02 jnt/Right Front Leg03 jnt/Right Front Leg04
+          jnt/Right Front Leg05 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt/Spine03
+          jnt/Spine04 jnt/Spine05 jnt/Spine06 jnt/Spine07 jnt/Spine08 jnt/Right Front
+          Leg01 jnt/Right Front Leg02 jnt/Right Front Leg03 jnt/Right Front Leg04
+          jnt/Right Front Leg05 jnt/Right Front Leg Tip jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt/Spine03
+          jnt/Spine04 jnt/Spine05 jnt/Spine06 jnt/Spine07 jnt/Spine08 jnt/Spine09
+          jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt/Spine03
+          jnt/Spine04 jnt/Spine05 jnt/Spine06 jnt/Spine07 jnt/Spine08 jnt/Spine09
+          jnt/Head01 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt/Spine03
+          jnt/Spine04 jnt/Spine05 jnt/Spine06 jnt/Spine07 jnt/Spine08 jnt/Spine09
+          jnt/Head01 jnt/Head02 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt/Spine03
+          jnt/Spine04 jnt/Spine05 jnt/Spine06 jnt/Spine07 jnt/Spine08 jnt/Spine09
+          jnt/Head01 jnt/Head02 jnt/Head Tip jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt/Spine03
+          jnt/Spine04 jnt/Spine05 jnt/Spine06 jnt/Spine07 jnt/Spine08 jnt/Spine09
+          jnt/Head01 jnt/Jaw01 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt/Spine03
+          jnt/Spine04 jnt/Spine05 jnt/Spine06 jnt/Spine07 jnt/Spine08 jnt/Spine09
+          jnt/Head01 jnt/Jaw01 jnt/Jaw02 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Spine01 jnt/Spine02 jnt/Spine03
+          jnt/Spine04 jnt/Spine05 jnt/Spine06 jnt/Spine07 jnt/Spine08 jnt/Spine09
+          jnt/Head01 jnt/Jaw01 jnt/Jaw02 jnt/Jaw Tip jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Tail01 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Tail01 jnt/Tail02 jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Tail01 jnt/Tail02 jnt/Tail03
+          jnt
+        weight: 1
+      - path: GeneralController001/Root point Helper/Tail01 jnt/Tail02 jnt/Tail03
+          jnt/Tail Tip jnt
+        weight: 1
+      - path: Panda
+        weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
@@ -478,11 +727,11 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 296
       lastFrame: 342
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
-      loop: 0
+      loop: 1
       hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
@@ -554,6 +803,7 @@ ModelImporter:
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -564,7 +814,10 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 1
   humanoidOversampling: 1

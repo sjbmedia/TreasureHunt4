@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Glass_Ruby_front
+  m_Shader: {fileID: 4800000, guid: 12dce40df921bf548ba15698d0acb37a, type: 3}
+  m_ShaderKeywords: _CAPEXTINCTIONVALUES_ON _DOUBLEDEPTHPASS_ON _ENABLEABERRATION_ON
+    _ENABLECOLOUREXTINCTION_ON _ENABLEDISTORTION_ON _ENABLEFOG_ON _USECAMERANORMAL_ON
+    _ZWRITE_ON
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DistortionTexture
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ColourExtinctionTexture
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AberrationTexture
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DepthFront
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DepthBack
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DepthOther
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _ZWrite
+        second: 1
+      data:
+        first:
+          name: _Glossiness
+        second: 1
+      data:
+        first:
+          name: _Metallic
+        second: 0
+      data:
+        first:
+          name: _Blend_Source
+        second: 5
+      data:
+        first:
+          name: _Blend_Dest
+        second: 10
+      data:
+        first:
+          name: _CullMode
+        second: 2
+      data:
+        first:
+          name: _Opacity
+        second: 0
+      data:
+        first:
+          name: _EnableDistortion
+        second: 1
+      data:
+        first:
+          name: _FlipUV_Grab
+        second: 0
+      data:
+        first:
+          name: _BumpMagnitude
+        second: 0
+      data:
+        first:
+          name: _EnableColourExtinction
+        second: 1
+      data:
+        first:
+          name: _CapExtinctionValues
+        second: 1
+      data:
+        first:
+          name: _EnableAberration
+        second: 1
+      data:
+        first:
+          name: _EnableFog
+        second: 0
+      data:
+        first:
+          name: _FogMagnitude
+        second: 1
+      data:
+        first:
+          name: _DisableBackFace
+        second: 0
+      data:
+        first:
+          name: _DoubleDepthPass
+        second: 1
+      data:
+        first:
+          name: _DepthFrontDistance
+        second: 999.700012
+      data:
+        first:
+          name: _DepthBackDistance
+        second: 999.700012
+      data:
+        first:
+          name: _DepthOtherDistance
+        second: 999.700012
+      data:
+        first:
+          name: _DepthMagnitude
+        second: 1
+      data:
+        first:
+          name: _DepthOffset
+        second: 0
+      data:
+        first:
+          name: _FlipUV_Depth
+        second: 0
+      data:
+        first:
+          name: _UseCameraNormal
+        second: 1
+      data:
+        first:
+          name: _Glow
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 0}
+      data:
+        first:
+          name: _MainTexIntensity
+        second: {r: 1, g: 1, b: 1, a: 0}
+      data:
+        first:
+          name: _DistortionIntensity
+        second: {r: 0, g: -.100000001, b: 1, a: 1}
+      data:
+        first:
+          name: _ColourExtinction
+        second: {r: 0, g: 1, b: .799999714, a: 1}
+      data:
+        first:
+          name: _ColourExtinctionMagnitude
+        second: {r: 2, g: 0, b: 2, a: 0}
+      data:
+        first:
+          name: _Aberration
+        second: {r: 1, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _AberrationMagnitude
+        second: {r: .00999999978, g: 0, b: .100000001, a: 0}
+      data:
+        first:
+          name: _DepthColourNear
+        second: {r: 0, g: 1, b: 0, a: 0}
+      data:
+        first:
+          name: _DepthColourFar
+        second: {r: 0, g: 0, b: 1, a: .5}
+      data:
+        first:
+          name: _CameraNormal
+        second: {r: 0, g: -.258819103, b: .965925813, a: 0}

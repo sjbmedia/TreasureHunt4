@@ -68,18 +68,8 @@ namespace Vuforia
 
         private void OnTrackingFound()
         {
-			//child.GetComponent<AudioSource>().Stop();
-			AudioSource[] audioSource = GetComponentsInChildren<AudioSource>(true);
-			Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
+            Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
             Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
-
-
-			// Enable Audio
-			foreach (AudioSource component in audioSource)
-			{
-				component.enabled = true;
-
-			}
 
             // Enable rendering:
             foreach (Renderer component in rendererComponents)
@@ -99,19 +89,10 @@ namespace Vuforia
 
         private void OnTrackingLost()
         {
-			AudioSource[] audioSource = GetComponentsInChildren<AudioSource>(true);
             Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
             Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
 
-          //Disable Audio
-
-			foreach (AudioSource component in audioSource)
-			{
-				component.enabled = false;
-			}
-
-			// Disable rendering:
-
+            // Disable rendering:
             foreach (Renderer component in rendererComponents)
             {
                 component.enabled = false;

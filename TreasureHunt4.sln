@@ -1,11 +1,11 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{9F37C1E4-1E48-901D-309A-E594FE608B05}") = "TreasureHunt4", "Assembly-CSharp-firstpass.csproj", "{AB590AA9-6673-992A-6A6A-9B218CED959B}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreasureHunt4.Plugins", "TreasureHunt4.Plugins.csproj", "{ADC5B25F-A459-335A-1B3E-D7746FD10878}"
 EndProject
-Project("{9F37C1E4-1E48-901D-309A-E594FE608B05}") = "TreasureHunt4", "Assembly-CSharp.csproj", "{6AFC77A3-6847-C83A-5706-321FAA788221}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreasureHunt4", "TreasureHunt4.csproj", "{986B64EB-436C-16CB-BCA8-FBCF3CF5AEA4}"
 EndProject
-Project("{9F37C1E4-1E48-901D-309A-E594FE608B05}") = "TreasureHunt4", "Assembly-CSharp-Editor.csproj", "{BE76AA2C-FF9E-CF29-C091-C95FB9344BCB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreasureHunt4.Editor", "TreasureHunt4.Editor.csproj", "{576BEB75-6D2A-D2C1-C5E7-86961F2717B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,23 +13,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AB590AA9-6673-992A-6A6A-9B218CED959B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AB590AA9-6673-992A-6A6A-9B218CED959B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AB590AA9-6673-992A-6A6A-9B218CED959B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AB590AA9-6673-992A-6A6A-9B218CED959B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6AFC77A3-6847-C83A-5706-321FAA788221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6AFC77A3-6847-C83A-5706-321FAA788221}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6AFC77A3-6847-C83A-5706-321FAA788221}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6AFC77A3-6847-C83A-5706-321FAA788221}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BE76AA2C-FF9E-CF29-C091-C95FB9344BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BE76AA2C-FF9E-CF29-C091-C95FB9344BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BE76AA2C-FF9E-CF29-C091-C95FB9344BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BE76AA2C-FF9E-CF29-C091-C95FB9344BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC5B25F-A459-335A-1B3E-D7746FD10878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC5B25F-A459-335A-1B3E-D7746FD10878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC5B25F-A459-335A-1B3E-D7746FD10878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC5B25F-A459-335A-1B3E-D7746FD10878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{986B64EB-436C-16CB-BCA8-FBCF3CF5AEA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{986B64EB-436C-16CB-BCA8-FBCF3CF5AEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{986B64EB-436C-16CB-BCA8-FBCF3CF5AEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{986B64EB-436C-16CB-BCA8-FBCF3CF5AEA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{576BEB75-6D2A-D2C1-C5E7-86961F2717B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{576BEB75-6D2A-D2C1-C5E7-86961F2717B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{576BEB75-6D2A-D2C1-C5E7-86961F2717B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{576BEB75-6D2A-D2C1-C5E7-86961F2717B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
